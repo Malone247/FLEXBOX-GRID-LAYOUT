@@ -1,0 +1,37 @@
+*{
+   box-sizing: border-box; 
+   margin: 3px;
+   padding: 10px;
+}
+body{
+    background-color: #424952;
+}
+.container{
+   display: grid;
+   grid-template-columns: 2fr 1fr 2fr;
+   grid-gap: 5px;
+   grid-template-rows: minmax(200px, auto);
+   grid-auto-rows: 100px;
+   margin-top: 100px;
+   padding: 30px;
+}
+.box1{
+   grid-column: 1/3;
+   background-color: orangered;
+}
+.box2{
+   background-color: orange;
+}
+.box3{
+   grid-column: 1/2;
+   background-color: green;
+   grid-row: 2/4;
+}
+.box4{
+   grid-column: 2/4;
+   background-color: #01aefd;
+}
+.box5{
+   grid-column: 2/4;
+   background-color: #01aefd;
+}
